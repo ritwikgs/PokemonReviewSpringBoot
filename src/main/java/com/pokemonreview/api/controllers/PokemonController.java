@@ -19,7 +19,6 @@ public class PokemonController {
         pokemons.add(new Pokemon(1, "pikachu", "land"));
         pokemons.add(new Pokemon(2, "squirtel", "water"));
         pokemons.add(new Pokemon(3, "charmendor", "fire"));
-        pokemons.add(new Pokemon(4, "onnyx", "land"));
         return ResponseEntity.ok(pokemons);
     }
 }
